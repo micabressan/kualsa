@@ -1,0 +1,7 @@
+{% for obj in novedad %}
+    <img src="{{obj.imagen.url}}"></img>
+    <video src="{{obj.video}}"></video>
+    <h1>{{obj.titulo}}</h1>
+    <a>{{obj.fecha}}</a>
+    <p>{{obj.texto}}</p>
+{% endfor %}
